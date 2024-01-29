@@ -1,0 +1,212 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+nav {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+li:hover {
+  color: #007bff;
+}
+
+/* Styling the icons */
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+.content {
+  padding-top: 120px;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.content p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.content button {
+  width: 285px;
+  background-color: #e09370;
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.brand-container {
+  padding-top: 90px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.top-selection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.top-selection h1 {
+  font-weight: 500;
+}
+
+.photo-collection {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.photo-1 {
+  background-image: url("img/top-collection1.png");
+  width: 415px;
+  height: 391px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.photo-2 {
+  background-image: url("img/top-collection2.png");
+  width: 415px;
+  height: 391px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.photo-3 {
+  background-image: url("img/top-collection3.png");
+  width: 415px;
+  height: 391px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.photo-collection p {
+  color: white;
+  padding-top: 20rem;
+  text-align: center;
+}
+
+.best-seller {
+  padding-top: 20px;
+}
+.best-seller .topBestSeller {
+  display: flex;
+  justify-content: space-between;
+}
+
+.best-seller .topBestSeller h1 {
+  font-weight: 500;
+}
+.best-seller .topBestSeller button {
+  background-color: #e09370;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-bestSeller {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card {
+  width: 287px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-container {
+  padding: 16px;
+}
+.ratingSeller {
+  display: flex;
+  align-items: center;
+}
+
+.card-container h3 {
+  font-weight: 600;
+  color: black;
+}
+
+.ratingSeller p,
+span {
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 4px;
+}
+.card-bestSeller {
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.ratingSeller span {
+  color: #bdbdbd;
+}
+
+.amount {
+  display: flex;
+  padding-top: 3px;
+  gap: 9px;
+}
+
+.amount p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.amount span {
+  font-size: 12px;
+  font-weight: 500;
+  color: red;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
